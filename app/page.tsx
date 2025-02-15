@@ -38,7 +38,11 @@ const ValentineApp = () => {
           <h1 className="text-4xl font-bold text-pink-600 mb-8">Yay! 💖</h1>
           <p className="text-2xl text-pink-500">I knew you would say yes!</p>
 
-          <Image src={randomImage().src} alt={randomImage().alt} />
+          <Image
+            src={randomImage().src}
+            alt={randomImage().alt}
+            className="w-full max-w-96 mt-4 rounded-md"
+          />
         </div>
       ) : (
         <div className="">
